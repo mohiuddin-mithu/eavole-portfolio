@@ -10,6 +10,9 @@
 .dark-2{
     color: #474747;
 }
+.dark-1{
+    color: #181818;
+}
 .btn-primary{
     font-size: 20px;
     padding: 18px 36px;
@@ -19,7 +22,21 @@
     font-weight: bold;
     border-radius: 5px;
 }
+.btn-secondary{
+    font-size: 20px;
+    padding: 18px 36px;
+    background-color: transparent;
+    border: 1px solid #d4b800;
+    color: #d4b800;
+    font-weight: bold;
+    border-radius: 5px;
+}
 /* Nav Style start  */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 nav{
     display: flex;
     align-items: center;
@@ -45,4 +62,42 @@ nav ul li a{
     text-decoration: none;
     font-size: 20px;
     
+}
+
+
+
+/* banner style start  */
+.banner{
+    display: flex;
+    margin: 50px 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    width: 680px;
+}
+
+.banner-content .greeting{
+    font-size: 45px;
+    font-weight: 500;
+}
+.banner-content .title{
+    font-size: 85px;
+    font-weight: bolder;
+}
+.banner-content {
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner-content .description{
+    margin: 20px 0;
+}
+.banner-content .btn-primary{
+    margin-right: 20px;
+}
+.image{
+   
+}
+.image img{
+    width: 100%;
 }
