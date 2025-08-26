@@ -50,6 +50,9 @@
     margin-bottom: 36px;
     line-height: 28px;
 }
+.text-center{
+    text-align: center;
+}
 /* Nav Style start  */
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -144,4 +147,21 @@ main{
 .item-description{
     font-weight: 600;
     font-size: 20px;
+}
+
+
+
+/* skill section style start  */
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 36px;
+}
+.skills-container .skill{
+    padding: 50px 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.108);
+    border-radius: 6px;
+}
+.skills-container .skill-title{
+    margin: 20px 0;
 }
