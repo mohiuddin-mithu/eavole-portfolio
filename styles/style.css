@@ -165,3 +165,36 @@ main{
 .skills-container .skill-title{
     margin: 20px 0;
 }
+
+
+/* A summary of My Resume */
+
+.summary-section{
+    margin: 130px auto;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin: 100px 0 50px 0;
+}
+.experience{
+    margin: 26px 0 20px 0;
+}
+.resume-column-title{
+    font-size: 30px;
+    color: #181818;
+}
+.experience-title{
+    font-size: 24px;
+    color: #181818;    
+    margin-bottom: 10px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    color: #474747;    
+    margin-bottom: 20px;
+}
+.experience-description {
+    font-size: 16px;
+    color: #474747;
+}
