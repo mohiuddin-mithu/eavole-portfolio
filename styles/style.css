@@ -27,6 +27,7 @@
     color: white;
     font-weight: bold;
     border-radius: 5px;
+    cursor: pointer;
 }
 .btn-secondary{
     font-size: 20px;
@@ -84,11 +85,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     font-size: 20px;
-    
 }
-
-
-
 /* banner style start  */
 .banner{
     display: flex;
@@ -99,7 +96,6 @@ nav ul li a{
 .banner-content{
     width: 680px;
 }
-
 .banner-content .greeting{
     font-size: 45px;
     font-weight: 500;
@@ -121,7 +117,6 @@ nav ul li a{
 .image img{
     width: 100%;
 }
-
 /* main styles  */
 main{
     max-width: 1140px;
@@ -134,7 +129,6 @@ main{
     padding: 130px 150px;
     text-align: center;
 }
-
 .about-items{
     display: flex;
     justify-content: space-around;
@@ -148,9 +142,6 @@ main{
     font-weight: 600;
     font-size: 20px;
 }
-
-
-
 /* skill section style start  */
 .skills-container{
     display: flex;
@@ -165,8 +156,6 @@ main{
 .skills-container .skill-title{
     margin: 20px 0;
 }
-
-
 /* A summary of My Resume */
 
 .summary-section{
@@ -198,3 +187,24 @@ main{
     font-size: 16px;
     color: #474747;
 }
+/* footer style  */
+footer{
+    padding: 130px 430px;
+     display: flex;
+    gap: 150px;
+}
+footer .footer-column p{
+    margin: 20px 0;
+}
+.footer-column .social-icon a{
+    margin-right: 20px;
+}
+form input{
+    padding: 16px;
+    border: none;
+}
+form textarea {
+    border: none;
+    margin-bottom: 6px;
+}
+
