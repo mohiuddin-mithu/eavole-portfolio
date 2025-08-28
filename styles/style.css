@@ -189,9 +189,12 @@ main{
 }
 /* footer style  */
 footer{
-    padding: 130px 430px;
+    padding: 130px 330px;
      display: flex;
-    gap: 150px;
+    gap: 50px;
+}
+footer .footer-column{
+    width: 50%;
 }
 footer .footer-column p{
     margin: 20px 0;
@@ -199,12 +202,28 @@ footer .footer-column p{
 .footer-column .social-icon a{
     margin-right: 20px;
 }
-form input{
-    padding: 16px;
+
+footer input[type="text"], footer input[type="email"]{
+    height: 44px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
     border: none;
+    margin-bottom: 20px;
 }
+
 form textarea {
+ height: 84px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
     border: none;
-    margin-bottom: 6px;
+    margin-bottom: 20px;
 }
 
