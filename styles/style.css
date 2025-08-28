@@ -17,7 +17,7 @@
     color: #181818;
 }
 .bg-secondary{
-    background-color: #FFF8F3;
+    background-color: #f7fffd;
 }
 .btn-primary{
     font-size: 20px;
@@ -37,6 +37,7 @@
     color: #d4b800;
     font-weight: bold;
     border-radius: 5px;
+    cursor: pointer;
 }
 .section-title{
     font-size: 35px;
@@ -199,8 +200,10 @@ footer .footer-column{
 footer .footer-column p{
     margin: 20px 0;
 }
-.footer-column .social-icon a{
+.footer-column .social-icon i{
     margin-right: 20px;
+    font-size: 30px;
+    color: #d4b800;
 }
 
 footer input[type="text"], footer input[type="email"]{
